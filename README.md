@@ -1,11 +1,11 @@
-# Building Detector offline tools
+# Building Detector Offline Tools
 
 The package contains two tools bundled together: a visualizer GUI application and a band extractor command line tool.
 
 ## Visualizer GUI
 
 The purpose of the visualizer application is to let you view 3-band and 8-band images, view ground truth building footprints and your solution's building footprint as overlays on these images, compare truth to solution and calculate your solution's score.
-Download the [visualizer package](http://www.topcoder.com/contest/problem/BuildingDetector/visualizer-1.1.zip) and unpack it anywhere on your system. Open a command window in the directory where you unzipped the package and execute
+Download the [visualizer package](https://github.com/SpaceNetChallenge/BuildingDetector/blob/master/visualizer-1.1/bin/visualizer-1.1.zip) and unpack it anywhere on your system. Open a command window in the directory where you unzipped the package and execute
 
 <pre>java -jar visualizer.jar -truth <truth_file> -solution <solution_file>
      -image3-dir <3band_image_directory> -image8-dir <8band_image_directory>
